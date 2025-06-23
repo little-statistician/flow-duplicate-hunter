@@ -10,8 +10,6 @@ Bloom Filters are probabilistic data structures used to efficiently test whether
 - Filtering large URL datasets to identify unique elements
 - Evaluation of false positive and false negative rates
 - Automatic parameter heuristics for SBF
-- Visualization functions for performance metrics (F1-score, FP, FN)
-- Comparison of storage optimization between plain text and `.duckdb` binary format
 
 ### Storage Optimization
 Saving output data in `.duckdb` format reduces storage size by approximately 50% compared to `.txt` files, due to efficient binary compression.
