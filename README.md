@@ -21,4 +21,5 @@ Saving output data in `.duckdb` format reduces storage size by approximately 50%
 
 ### Requirements
 Python 3.8+  
-Libraries: pandas, matplotlib, gzip, math
+Main libraries: pandas, math, gzip, requests, json, random, hashlib, collections, time, itertools
+
