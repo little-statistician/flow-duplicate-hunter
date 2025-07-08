@@ -4,8 +4,7 @@ This repository contains a Python implementation and experimental framework for 
 
 ## Authors
 
-Names: M. Ropele, M. Ceola
-\nDate: June 3, 2025
+Names: M. Ropele, M. Ceola  Date: June 3, 2025
 
 ### Background
 Bloom Filters are probabilistic data structures used to efficiently test whether an element is a member of a set, with some false positive rate but no false negatives. Stable Bloom Filters extend this idea to handle streaming data, supporting approximate deletions by allowing some false negatives, useful in dynamic datasets.
