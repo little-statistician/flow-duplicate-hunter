@@ -418,10 +418,10 @@ def apply_filtering(filter_type, urls, m, k, fps=None, max_val=None, p=None):
 
     return filtered_urls
 
-# Run experiments (⚠️ this may take a long time — hours!)
+# Run experiments (⚠ this may take a long time — hours!)
 run_filter_experiments()
 
-# ↓↓↓ Applying the filter with optimal parameters ↓↓↓
+# Applying the filter with optimal parameters
 # Decompression of URLs from the Common Crawl dataset
 d = download_and_process_urls(path="cc-index/collections/CC-MAIN-2024-42/indexes/cdx-00000.gz")
 
